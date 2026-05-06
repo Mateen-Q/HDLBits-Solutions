@@ -1,0 +1,38 @@
+# --- Verilog/HDL Specific ---
+# Simulation outputs (Value Change Dump)
+*.vcd
+*.ivc
+*.out
+
+# Icarus Verilog 
+a.out
+
+# --- Tool Specific (Vivado/Quartus/Intel FPGA) ---
+# Ignore folders created by tools during synthesis/simulation
+*.jou
+*.log
+*.pb
+*.str
+*.dir/
+*.gen/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/
+*.hw/
+*.ip/
+*.cache/
+*.xpr
+incremental_db/
+db/
+output_files/
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Backup/Temporary Files ---
+*~
+*.bak
+*.swp
