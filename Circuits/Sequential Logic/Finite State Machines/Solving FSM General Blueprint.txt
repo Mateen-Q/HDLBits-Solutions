@@ -1,4 +1,4 @@
-solving FSM has 2 simple steps:
+solving FSM has 3 simple steps:
 
 
 1) assignment of the next state based on present state is done based on input inside a combinational always block
