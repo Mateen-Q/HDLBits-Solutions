@@ -1,0 +1,6 @@
+solving FSM has 2 simple steps:
+
+
+1) assignment of the next state based on present state is done based on input inside a combinational always block
+2) transition of present to next is done inside a clocked block
+3) assignment of output based on current state is done in an assign statement
