@@ -1,6 +1,14 @@
-solving FSM has 2 simple steps:
+solving Moore FSM has 3 simple steps:
 
 
 1) assignment of the next state based on present state is done based on input inside a combinational always block
 2) transition of present to next is done inside a clocked block
 3) assignment of output based on current state is done in an assign statement
+
+
+for solving a Mealy FSM,
+
+1) declare all states
+2) create one combinational always block for state transition logic
+3) create one combinational always block for output logic based on state 
+4) create one clocked always block to switch the states
